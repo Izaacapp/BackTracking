@@ -1,0 +1,7 @@
+The time complexity of the implemented solution is O(K * M * N * 8^L), where:
+- K is the number of test cases.
+- M is the number of rows in the matrix.
+- N is the number of columns in the matrix.
+- L is the length of the word to be found.
+
+This is because for each starting position in the matrix, we potentially explore up to 8 possible directions (right, left, down, up, and diagonals) recursively for each character in the word.
