@@ -92,6 +92,3 @@ NEEDON not found!
 
 This program is written by Izaac Plambeck.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
