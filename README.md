@@ -1,10 +1,10 @@
-# Backtracking Assignment
+# Backtracking Word Finder
 
-This repository contains the solution to COP 3503C Programming Assignment #2 on Backtracking. The task is to find specific words in a given MxN matrix of characters using backtracking.
+This repository contains a backtracking algorithm to search for words in an MxN matrix of characters. The goal is to locate specific words within the matrix, allowing for various directional paths including horizontal, vertical, and diagonal movements.
 
 ## Problem Description
 
-Given an MxN matrix of characters and a list of words, the goal is to find each word in the matrix. The words can be formed in any direction:
+Given an MxN matrix of characters and a list of words, the objective is to find each word in the matrix. The words can be formed in any direction:
 - Left to right
 - Right to left
 - Top to bottom
@@ -15,7 +15,7 @@ A word must follow a continuous path, and the same letter cannot be reused.
 
 ## Files in the Repository
 
-- `Main.java`: The main Java program implementing the backtracking solution.
+- `Main.java`: The Java program implementing the backtracking solution.
 - `Plambeck_analysis.txt`: A brief analysis of the time complexity of the solution.
 - `in1.txt`, `in2.txt`, `out1.txt`, `out2.txt`: Sample input and expected output files for testing.
 
