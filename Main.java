@@ -54,7 +54,7 @@ public class Main {
             }
             if (!found) {
                 System.out.println("Looking for " + word);
-                System.out.println(word + " not found!");
+                System.out.println(word + " not found!\n");
             }
         }
 
@@ -86,14 +86,18 @@ public class Main {
     private static void printMatrixWithPath(char[][] matrix, boolean[][] pathMatrix, String word) {
         System.out.println("Looking for " + word);
         for (int i = 0; i < matrix.length; i++) {
+            System.out.print("[");
             for (int j = 0; j < matrix[0].length; j++) {
                 if (pathMatrix[i][j]) {
-                    System.out.print(matrix[i][j] + ", ");
+                    System.out.print(matrix[i][j]);
                 } else {
-                    System.out.print(" , ");
+                    System.out.print(" ");
+                }
+                if (j < matrix[0].length - 1) {
+                    System.out.print(", ");
                 }
             }
-            System.out.println();
+            System.out.println("]");
         }
         System.out.println();
     }
